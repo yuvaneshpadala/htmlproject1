@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="hello.css" />
+
+
+  
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Fontawesome CDNJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: #fff7e7;">
+<!-- Header Section Starts-->
+<!-- Navbar -->
+<section id="headermenu">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="./images/asana-logo.png" alt="" height="30px"></a>    
+            
+            
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav headermenulinks ms-auto">
+                    <li class="nav-item headermenulinks">
+                        <a href="#" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#store" class="nav-link">SHOP</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#blog" class="nav-link">BLOG</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+        
+<!-- Carousel Section -->
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+    </button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="pic.png" class="d-block w-100 c-img" alt="..." >
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Beautiful Plants For<br/>Your Interior!</h1>
+        <a href="#"><button type="button" class="btn">LEARN MORE</button></a>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="pic1.png" class="d-block w-100 c-img" alt="..." >
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Beautiful Plants For<br/>Your Interior!</h1>
+        <a href="#"><button type="button" class="btn">LEARN MORE</button></a>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="pic2.png" class="d-block w-100 c-img" alt="..." >
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Beautiful Plants For<br/>Your Interior!</h1>
+        <a href="#"><button type="button" class="btn">LEARN MORE</button></a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!-- About Us Section -->
+<section id="about">
+<div class="container">
+  <div class="row row-cols-md-1 mt-5 pt-5 justify-content-center d-flex align-items-center">
+    <div class="col-lg-6 my-5 px-5 text-center g-0">
+      <div class="aboutustext">
+        <h1>About Us</h1>
+        <img src="pic4.png" alt="" height="4px" />
+        <p>Plants are the eukaryotes that form the kingdom Plantae; they are predominantly photosynthetic. 
+          This means that they obtain their energy from sunlight, using chloroplasts derived from endosymbiosis
+           with cyanobacteria to produce sugars from carbon dioxide and water, using the green pigment
+            chlorophyll</p>
+        <P>Plants are living organisms that belong to the Plantae kingdom. The evolution of plants has been a
+           crucial part of environmental development. Planting more trees helps in maintaining the ecosystem
+            and saves the environment from the harmful effects of global warming.</P>
+      </div>
+    </div>
+    <div class="col-lg-6 ourstoryimage my-5 px-5 g-0">
+      <img src="pic3.png" alt="" class="img-fluid" />
+    </div>    
+  </div>
+</div>
+</section>
+
+
+
+
+<!-- Store Section -->
+
+<section id="store">
+  <div class="container align-content-center justify-content-center">
+    <h1>Plants shop</h1>
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-5 mb-3">
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="pic4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title "> Buy the finest Banana Plant Sapling online for Planting</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹2,050</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="pic5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">Syngonium Podophyllum White Butterfly - Plant</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹989</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="pic6.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">Peace Lily, Spathiphyllum - Plant</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹750</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="pic7.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">Elephant bush, Portulacaria afra, Jade plant (Green) - Succulent Plant</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹1,240</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="pic8.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">3 Layer Lucky Bamboo Plant in a Bowl with Pebbles</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹3,146</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="pic10.png" class="card-img-top" alt="...">
+          <div class="card-body card_area">
+            <h6 class="card-title ">Chlorophytum, Spider Plant - Plant</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹1,089</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="pic11.png" class="card-img-top" alt="...">
+          <div class="card-body card_area">
+            <h6 class="card-title ">Zamioculcas zamiifolia, ZZ Plant - Plant</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹645</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container loadmore text-center my-5 pt-2">
+      <a href="">Load more</a>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- About Us 2 columns Section -->
+
+
+<div class="container-fluid fourcolumns" id="blog">
+  <div class="row row-cols-1 row-cols-md-1">
+    <div class="col-lg-6 mx-auto p-0 g-0" >
+      <img src="pic1.png" alt="" class="img-fluid"/>
+    </div>
+    <div class="col-lg-6 text-center justify-content-around align-items-center align-content-center " style="background-color: #5FC7AE; ">
+      <div class="abouttext">
+        <h1>PART OF THE PLANTS</h1>
+        <img src="pic1.png" alt="" height="5px" />
+        <p>Plants are the eukaryotes that form the kingdom Plantae; they are predominantly photosynthetic.</p>
+        <a href="#"><button type="button" class="btn">LEARN MORE</button></a>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+    <div class="col-lg-3 cl-one g-0 ">
+      <img src="pic13.png" alt="" class="img-fluid" />
+    </div>
+    <div class="col-lg-3 cl-two position-relative px-5 py-5">
+      <h1>The earth laughs in flowers</h1>
+      <hr/>
+      <p>A good deed is never lost; he who sows courtesy reaps friendship, and he who plants kindness gathers love.</p>
+      <a href="#"><button class="readmorebtn position-absolute bottom-0 start-0 px-5 my-3">Read more</button></a>
+      <a href="#"><i class="readmore-icon fa-solid fa-arrow-right position-absolute bottom-0 end-0 my-3 px-5"></i></a>
+    </div>
+    <div class="col-lg-3 cl-three g-0">
+      <img src="pic12.png" alt="" class="img-fluid" />
+    </div>
+    <div class="col-lg-3 cl-four position-relative px-5 py-5">
+      <h1>In every walk with nature, one receives far more than he seeks.</h1>
+      <hr/>
+      <p>A good deed is never lost; he who sows courtesy reaps friendship, and he who plants kindness gathers love.</p>
+      <a href="#"><button class="readmorefourbtn position-absolute bottom-0 start-0 px-5 my-3">Read more</button></a>
+      <a href="#"><i class="readmore-icon fa-solid fa-arrow-right position-absolute bottom-0 end-0 my-3 px-5"></i></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Contact Us Section -->
+
+<div class="container-fluid contactus text-center py-5">
+  <h1 style="color: black;">Success seems to be connected with action.</h1>
+</div>
+<section id="contact">
+<div class="container">
+  <div class="row row-cols-md-1 py-5 mt-5 justify-content-center d-flex align-items-center">
+    <div class="col-lg-6 ourstoryimage px-5 g-0">
+      <img src="pic15.png" alt="" class="img-fluid" />
+    </div> 
+    <div class="col-lg-6 px-5 text-start g-0">
+      <div class="aboutustext">
+        <h1>Contact Us</h1>
+        <hr style="width: 100px ; border: 2px solid black;">
+        <div class="contactitems d-flex">
+          <a href="#" style="text-decoration: none;"><p><i class="fa-solid fa-phone"></i><span class="px-3">+91 9063028968</span></p></a>
+        </div>
+        <div class="contactitems d-flex">
+          <a href="#"style="text-decoration: none;"> <p><i class="fa-solid fa-envelope"></i><span class="px-3">yuvaneshpadala2gmail.com</span></p></a>
+        </div>
+        <div class="contactitems d-flex">
+          <a href="#" style="text-decoration: none;"><p><i class="fa-solid fa-map-pin"></i><span class="px-3">Anakapalli,Kasimkota - 531031 </span></p></a>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+</section>
+
+<!-- Footer Section -->
+
+<footer id="footersection">
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 ">
+    <div class="col-lg-3 socialicons py-5 text-center" style="background-color: #3d3d3d; font-family: poppins, sans-serif;">
+      <p>Follow us on:</p>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook mx-3"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube mx-3"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <div class="col-lg-6 py-5" style="background-color: #3d3d3d;">
+      <ul class="nav footerlinks justify-content-center">
+        <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">ABOUT</a>
+        </li>
+        <li class="nav-item">
+            <a href="#store" class="nav-link">SHOP</a>
+        </li>
+        <li class="nav-item">
+            <a href="#blog" class="nav-link">BLOG</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </li>
+    </ul>
+    </div>
+
+  <div class="col-lg-3 py-5" style="background-color: #3d3d3d;">
+    <nav class="navbar navbar-light justify-content-center">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="font-family: poppins, sans-serif;">
+        <button class="btn btn-outline-success" type="submit" style="font-family: poppins, sans-serif;">Search</button>
+      </form>
+    </nav>
+  </div>
+</div>
+</div>
+
+
+</footer>
+
+<a href="#"><i class="fa-solid fa-arrow-up gotop"></i></a>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
